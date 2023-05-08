@@ -1,0 +1,3 @@
+  cn.edu.ustc.common.web.config.WebMvcConfig
+  cn.edu.ustc.common.web.config.FeignConfig
+  cn.edu.ustc.common.web.exception.GlobalExceptionHandler

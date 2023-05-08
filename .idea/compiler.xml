@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/magic-system/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/magic-auth/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for magic-disk-microservice" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../BuildCache/maven/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+          <entry name="$PROJECT_DIR$/../../BuildCache/maven/org/mapstruct/mapstruct-processor/1.5.0.RC1/mapstruct-processor-1.5.0.RC1.jar" />
+          <entry name="$PROJECT_DIR$/../../BuildCache/maven/org/mapstruct/mapstruct/1.5.0.RC1/mapstruct-1.5.0.RC1.jar" />
+        </processorPath>
+        <module name="common-security" />
+        <module name="system-api" />
+        <module name="common-rabbitmq" />
+        <module name="magic-gateway" />
+        <module name="system-boot" />
+        <module name="magic-file" />
+        <module name="common-log" />
+        <module name="ums-api" />
+        <module name="common-redis" />
+        <module name="common-elasticsearch" />
+        <module name="common-mybatis" />
+        <module name="common-seata" />
+        <module name="magic-auth" />
+        <module name="common-web" />
+        <module name="common-core" />
+        <module name="common-sms" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-core" options="-parameters" />
+      <module name="common-elasticsearch" options="-parameters" />
+      <module name="common-log" options="-parameters" />
+      <module name="common-mybatis" options="-parameters" />
+      <module name="common-rabbitmq" options="-parameters" />
+      <module name="common-redis" options="-parameters" />
+      <module name="common-seata" options="-parameters" />
+      <module name="common-security" options="-parameters" />
+      <module name="common-sms" options="-parameters" />
+      <module name="common-web" options="-parameters" />
+      <module name="magic-auth" options="-parameters" />
+      <module name="magic-common" options="" />
+      <module name="magic-file" options="-parameters" />
+      <module name="magic-gateway" options="-parameters" />
+      <module name="magic-system" options="" />
+      <module name="magic-ums" options="" />
+      <module name="system-api" options="-parameters" />
+      <module name="system-boot" options="-parameters" />
+      <module name="ums-api" options="-parameters" />
+    </option>
+  </component>
+</project>

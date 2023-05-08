@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.edu.ustc</groupId>
+        <artifactId>magic-disk-microservice</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>magic-file</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>cn.edu.ustc</groupId>
+            <artifactId>common-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.edu.ustc</groupId>
+            <artifactId>common-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.edu.ustc</groupId>
+            <artifactId>common-security</artifactId>
+        </dependency>
+
+        <!--Java工具类-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+
+        <!--文档插件 集成了Swagger UI-->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
+            <version>2.0.5.graal</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qiwenshare</groupId>
+            <artifactId>ufop-spring-boot-starter</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
+
+    </dependencies>
+
+</project>

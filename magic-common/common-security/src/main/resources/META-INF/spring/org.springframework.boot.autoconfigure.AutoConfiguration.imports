@@ -1,0 +1,4 @@
+cn.edu.ustc.common.security.service.PermissionService
+cn.edu.ustc.common.security.config.ResourceServerConfig
+cn.edu.ustc.common.security.exception.MyAccessDeniedHandler
+cn.edu.ustc.common.security.exception.MyAuthenticationEntryPoint

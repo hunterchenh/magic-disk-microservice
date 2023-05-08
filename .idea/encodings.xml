@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/magic-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/common-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/common-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/common-rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/common-seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/common-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/common-sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/common-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-system/system-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-system/system-boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-ums/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-ums/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-ums/ums-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/magic-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
