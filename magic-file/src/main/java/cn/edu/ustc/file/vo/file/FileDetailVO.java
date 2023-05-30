@@ -1,7 +1,7 @@
 package cn.edu.ustc.file.vo.file;
 
-import com.qiwenshare.file.domain.Image;
-import com.qiwenshare.file.domain.Music;
+import cn.edu.ustc.file.domain.Image;
+import cn.edu.ustc.file.domain.Music;
 import lombok.Data;
 
 /**

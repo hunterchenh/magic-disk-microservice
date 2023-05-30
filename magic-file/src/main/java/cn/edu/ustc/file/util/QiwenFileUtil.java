@@ -1,9 +1,9 @@
 package cn.edu.ustc.file.util;
 
+import cn.edu.ustc.file.domain.UserFile;
+import cn.edu.ustc.file.io.QiwenFile;
 import cn.hutool.core.util.IdUtil;
 import com.qiwenshare.common.util.DateUtil;
-import com.qiwenshare.file.domain.UserFile;
-import com.qiwenshare.file.io.QiwenFile;
 
 public class QiwenFileUtil {
 

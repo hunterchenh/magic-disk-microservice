@@ -1,13 +1,13 @@
 package cn.edu.ustc.file.service;
 
+import cn.edu.ustc.file.api.IStorageService;
+import cn.edu.ustc.file.domain.StorageBean;
+import cn.edu.ustc.file.domain.SysParam;
+import cn.edu.ustc.file.mapper.StorageMapper;
+import cn.edu.ustc.file.mapper.SysParamMapper;
+import cn.edu.ustc.file.mapper.UserFileMapper;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.qiwenshare.file.api.IStorageService;
-import com.qiwenshare.file.domain.StorageBean;
-import com.qiwenshare.file.domain.SysParam;
-import com.qiwenshare.file.mapper.StorageMapper;
-import com.qiwenshare.file.mapper.SysParamMapper;
-import com.qiwenshare.file.mapper.UserFileMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
